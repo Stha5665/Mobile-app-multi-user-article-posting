@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="340dp"
+    android:background="#03A9F4"
+    android:paddingLeft="21dp"
+    android:paddingRight="21dp"
+    android:paddingBottom="11dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="32sp"
+        android:textColor="#fff"
+        android:id="@+id/txtTitle"
+        android:text="User"
+        android:layout_margin="21dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:background="#fff"
+        android:id="@+id/editUserName"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:padding="11dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:background="#fff"
+        android:id="@+id/editUserEmail"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:padding="11dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Date"
+        android:background="#fff"
+        android:id="@+id/editUserDateRegistered"
+        android:layout_marginBottom="11dp"
+        android:inputType="text"
+        android:padding="11dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fff"
+        android:layout_marginTop="11dp"
+        android:textColor="#03A9F4"
+        android:layout_gravity="end"
+        android:text="add"
+        android:id="@+id/btnAction"/>
+</LinearLayout>
